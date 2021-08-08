@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+  <body>
+<!--nabvar menu -->
+    <nav class="navbar navbar-dark bg-soft-black text-white navbar-expand-lg sticky-top">      
+        <div class="container py-2">
+            <a class="navbar-brand" href="#">Spotify</a>
+
+            <button type="button"  class="navbar-toggler" data-toggle="collapse" data-target="#navbar-spotify" aria-controls="navbar-spotify">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbar-spotify">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#">Premium</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#">Yardım</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#">İndir</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#">Kayıt ol</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#">Oturum aç</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Part 1 -->
+    <section class="gradient py-6 pt-6" >
+        <div class="container">
+        <div class="carousel slide" data-ride="carousel" id="spotify-slider">
+            <div class="carousel-inner text-center text-white" style="height: 300px">
+                <div class="carousel-item active">
+                    <h1 class="display-3">Herkes için müzik.</h1>
+                    <a class="btn btn-success py-2 px-5" href="#"> <small>Spotify'ı Ücretsiz Olarak Al</small> </a>
+                    <a class="btn btn-secondary py-2 px-5" href="#"><small>Spotify Premiuma Geç</small> </a>
+                </div>
+                <div class="carousel-item">
+                    <h1 class="display-3">Tüm ailen için Premium.<br>Sadece 20,99 TL.</h1>
+                    <a class="btn btn-success py-2 px-5" href="#"> <small>Daha Fazla Bilgi</small> </a>
+                </div>
+                <div class="carousel-item">
+                    <h1 class="display-3">Öğrenciler %50 Premium <br> indirimi alır.</h1>
+                    <a class="btn btn-success py-2 px-5" href="#"><small>Daha Fazla Bilgi</small> </a>
+                </div>
+                <div class="carousel-item">
+                    <h1 class="display-3">Spotify'ı PlayStation ve Xbox <br> One'da çal.</h1>
+                    <a class="btn btn-success py-2 px-5" href="#"><small> Daha Fazla Bilgi</small></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#spotify-slider" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#spotify-slider" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        </div>
+    </section>
+
+
+<!--Part 2 -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="mb-4">Spotify da neler var?</h1>
+                    <h4 class="mb-4">Müzik</h4>
+                    <p>Spotify'da milyonlarca şarkı var. En sevdiklerini dinle,<br> yeni parçaları keşfet, mükemmel koleksiyonu oluştur.</p>
+                    <h4 class="mb-4">Çalma Listeleri</h4>
+                    <p>Müzik tutkunları ve uzamnlar tarafından hazırlanmış, ruh<br> haline uyacak hazır çalma listeleri bulacaksın.</p>
+                    <h4 class="mb-4">Yeni Çıkanlar</h4>
+                    <p>Bu hafta yeni çıkan yeni single ve albimleri dinle, ilk 50'de<br> neler olduğunu keşfet.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 ">
+                        <div class="col-6 col-md-12 col-lg-6">
+                            <img src="img/palm.jpg" alt="palm_pictures" class="img-fluid">
+                        </div>
+                        <div class="col-6 col-md-12 col-lg-6">
+                            <img src="img/music1.jpg" alt="music_pictures" class="img-fluid">
+                        </div>
+
+                        <div class="col-6 col-md-12 col-lg-6">
+                            <img src="img/wave.jpg" alt="wave_pictures" class="img-fluid">
+                        </div>
+                        <div class="col-6 col-md-12 col-lg-6 d-md-none d-lg-block">
+                            <img src="img/music2.jpg" alt="music_pictures" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--Part 3 -->
+    <section class="gradient py-5" >
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-3 offset-md-1 d-sm-none d-md-block">
+                    <div class="row">
+                        <h6 class="text-center text-white"> <small> Senin için yapıldı.</small></h6>
+                        <div class="col-sm-6 text-center">
+                            <img src="img/spotify.jpg" class="img-fluid" id="img1">
+                            <small class="text-white"><small>Sana özel günün derlemesi</small></small>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <img src="img/spotify1.jpg" class="img-fluid" id="img1">
+                            <small class="text-white"><small>Günlük yeni çıkanlar radarı</small></small>
+                        </div>
+                        <ul class="list-unstyled text-white m-3" style="width: 100%;">
+                            <li class="py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                                  <small></small> Listeler
+                            </li>
+                            <li class="py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                                  <small> Yeni çıkanlar</small>
+                            </li>
+                            <li class="py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                                  <small>Videolar</small> 
+                            </li>
+                            <li class="py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                                  <small>Podcast'lar</small> 
+                            </li>
+                            <li class="py-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                  </svg>
+                                  <small>Keşfet</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-5 offset-md-2 text-white">
+                    <h1 class="mb-4">Kolaydır.</h1>
+                    <h4 class="mb-4">Ara</h4>
+                    <p class="mb-4">Ne dinlemek istediğini biliyor musun? Sadece ara ve çala dokun.</p>
+                    <h4 class="mb-4">Gözat</h4>
+                    <p class="mb-4">En yeni listeleri, yeni çıkanları ve harika çalma listelerini hemen keşfet.</p>
+                    <h4 class="mb-4">Keşfet</h4>
+                    <p class="mb-4">Kişisel çalma listenle her pazartesi yeni müziklerin tadını çıkart. Ya da arkana yaslan ve Radyo dinle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--Part 4 -->
+    <section class="py-6" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Bir hesap. Her yerde dinle.</h1>
+                    <ul class="list-inline mt-5">
+                        <li class="list-inline-item">MOBİL</li>
+                        <li class="list-inline-item">BİLGİSAYAR</li>
+                        <li class="list-inline-item">TABLET</li>
+                        <li class="list-inline-item">ARABA</li>
+                    </ul>
+                    <ul class="list-inline mt-3 pt-5">
+                        <li class="list-inline-item">HOPARLÖR</li>
+                        <li class="list-inline-item">PLAYSTATİON</li>
+                        <li class="list-inline-item">XBOX</li>
+                        <li class="list-inline-item">TV</li>
+                        <li class="list-inline-item">WEB ÇALAR</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 container">
+                    <img src="img/phone.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Part 5 --> 
+    <section class="gradient py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 offset-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Spotify Free</h5>
+                            <h3 class="mb-5">0,00 TL <small>/ ay</small> </h3>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li>Karışık çal</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Reklamsız</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Sınırsız atlama hakkı</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Çevrimdışı dinle</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">İstediğin parçayı dinle</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Yüksek kaliteli ses</li>
+                            </ul> <hr>
+                            <a href="" class="btn btn-success container">Ücretsiz Edin</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Spotify Premium</h5>
+                            <h3>13,99 TL <small>/ ay</small> </h3>
+                            <small>30 günlük ücretsiz denemeni başlat.</small>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li>Karışık çal</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Reklamsız</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Sınırsız atlama hakkı</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Çevrimdışı dinle</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">İstediğin parçayı dinle</li>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                                  </svg><li class="text-muted">Yüksek kaliteli ses</li>
+                            </ul> <hr>
+                            <a href="" class="btn btn-success container">Premium Edin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Footer part -->
+    <footer class="bg-dark py-5 text-white">
+footer kısmı
+
+    </footer>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+   
+  </body>
+
+</html>
